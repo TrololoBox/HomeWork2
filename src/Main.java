@@ -241,6 +241,7 @@ public class Main {
 	public static void ShowAllSeries() {
 		for (Series series2 : listOfSerials.getListOfSerials()) {
 			System.out.println("Name of Serial: " + series2.getName());
+			UserActivity();
 		}
 	}
 	
